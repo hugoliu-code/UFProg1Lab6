@@ -19,6 +19,11 @@ while(True):
     if(user_input == 1):
         password = encoder(input("Please enter your password to encode: "))
         print("Your password has been encoded and stored!")
+    elif(user_input == 2):
+        pass
+    elif(user_input == 3):
+        break
+
 
 
 
